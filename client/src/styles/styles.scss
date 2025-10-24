@@ -1,0 +1,37 @@
+
+@use "./config" as config;
+@use "./utilities" as utilities;
+
+//////////////////     FOOTER STYLING     /////////////////
+
+.footer-container {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: config.$dark-brown;
+
+  p {
+    color: config.$peach-white;
+    font-size: config.$small-font;
+  }
+}
+
+
+//////////////////     NAVBAR STYLING     /////////////////
+
+.navbar-container {
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  li {
+    padding: 8px;
+    list-style-type: none;
+    color: config.$dark-brown;
+  }
+}

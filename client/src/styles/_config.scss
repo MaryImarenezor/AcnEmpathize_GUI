@@ -1,0 +1,22 @@
+
+/// config.scss = a file for storing variables and base styling
+
+$dark-brown: #333333;
+$peach-white: #FFF8F8;
+
+$small-font: 15px;
+
+* {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body {
+    background-color: $peach-white;
+}
+
+// * {
+//   border-width: 5px;
+//   border-style: solid;
+//   border-color: #c131a2;
+// }

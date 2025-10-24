@@ -1,0 +1,30 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #FFF8F8;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #333333;
+}
+.footer-container p {
+  color: #FFF8F8;
+  font-size: 15px;
+}
+
+.navbar-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navbar-container li {
+  padding: 8px;
+  list-style-type: none;
+  color: #333333;
+}/*# sourceMappingURL=styles.css.map */
