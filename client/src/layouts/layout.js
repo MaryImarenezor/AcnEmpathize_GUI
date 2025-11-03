@@ -8,8 +8,8 @@ function Layout(html) {
     return (
         <html>
             <head>
-                <title>AcnEmpathize</title>
-                <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'></link>
+                <title>AcnEmpathise</title>
+                <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' />
             </head>
             <body>
                 <NavBar />

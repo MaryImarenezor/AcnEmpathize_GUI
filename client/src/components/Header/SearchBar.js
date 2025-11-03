@@ -8,8 +8,8 @@ function SearchBar() {
   return (
     <Navbar className="bg-body-tertiary justify-content-between">
       <Form inline>
-        <Row>
-          <Col xs="auto">
+        <Row className="search-bar-container">
+          <Col xs="13">
             <Form.Control
               type="text"
               placeholder="Search"

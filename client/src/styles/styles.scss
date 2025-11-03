@@ -35,3 +35,24 @@
     color: config.$dark-brown;
   }
 }
+
+//////////////////     HEADER STYLING     /////////////////
+
+// .search-bar-container {
+//   padding: 10px;
+//   width: 50px;
+// }
+
+
+//////////////////     HOMEPAGE STYLING     /////////////////
+.logo_container {
+  display: flex;
+  justify-content: center;
+  height: 45%;
+  align-items: flex-end;
+
+  img {
+    width: 40%;
+    padding: 20px;
+  }
+}

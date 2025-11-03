@@ -1,5 +1,5 @@
 
-/// config.scss = a file for storing variables and base styling
+/// config.scss = a file for storing variables, imports, and base styling
 
 $dark-brown: #333333;
 $peach-white: #FFF8F8;
@@ -13,7 +13,9 @@ $small-font: 15px;
 
 body {
     background-color: $peach-white;
+    height: 100vh;
 }
+
 
 // * {
 //   border-width: 5px;

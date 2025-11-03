@@ -4,6 +4,7 @@
 
 body {
   background-color: #FFF8F8;
+  height: 100vh;
 }
 
 .footer-container {
@@ -27,4 +28,15 @@ body {
   padding: 8px;
   list-style-type: none;
   color: #333333;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  height: 45%;
+  align-items: flex-end;
+}
+.logo_container img {
+  width: 40%;
+  padding: 20px;
 }/*# sourceMappingURL=styles.css.map */
